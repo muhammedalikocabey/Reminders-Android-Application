@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/priority_none"
+        android:title="@string/text_none"
+        android:checked="true" />
+
+    <item
+        android:id="@+id/priority_low"
+        android:title="@string/text_low" />
+
+    <item
+        android:id="@+id/priority_medium"
+        android:title="@string/text_medium" />
+
+    <item android:id="@+id/priority_high"
+        android:title="@string/text_high" />
+</menu>

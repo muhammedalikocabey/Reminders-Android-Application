@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/change_list_name"
+        android:title="@string/text_changeListName" />
+    <item
+        android:id="@+id/delete_list"
+        android:title="@string/text_deleteList" />
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/repeat_menu_item_never"
+        android:checked="true"
+        android:title="@string/text_never" />
+    <item
+        android:id="@+id/repeat_menu_item_everyHour"
+        android:title="@string/text_everyHour" />
+    <item
+        android:id="@+id/repeat_menu_item_everyDay"
+        android:title="@string/text_everyDay" />
+    <item
+        android:id="@+id/repeat_menu_item_everyWeek"
+        android:title="@string/text_everyWeek" />
+    <item
+        android:id="@+id/repeat_menu_item_every2Week"
+        android:title="@string/text_every2Weeks" />
+    <item
+        android:id="@+id/repeat_menu_item_monthly"
+        android:title="@string/text_monthly" />
+    <item
+        android:id="@+id/repeat_menu_item_every3Months"
+        android:title="@string/text_every3Months" />
+    <item
+        android:id="@+id/repeat_menu_item_every6Months"
+        android:title="@string/text_every6Months" />
+    <item
+        android:id="@+id/repeat_menu_item_everyYear"
+        android:title="@string/text_everyYear" />
+</menu>

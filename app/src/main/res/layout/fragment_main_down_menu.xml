@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_300">
+
+    <Button
+        android:id="@+id/new_reminder_Button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintWidth_percent="0.6"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableLeft="@drawable/ic_baseline_add_circle_32_blue_a700"
+        android:gravity="left|center_horizontal|center_vertical"
+        android:text="@string/text_newReminder"
+        android:textAllCaps="false"
+        android:textColor="@color/light_blue_A700"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/new_reminder_list_Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/new_reminder_list_Button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintWidth_percent="0.4"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="right|center_horizontal|center_vertical"
+        android:text="@string/text_addList"
+        android:textAllCaps="false"
+        android:textColor="@color/light_blue_A700"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
